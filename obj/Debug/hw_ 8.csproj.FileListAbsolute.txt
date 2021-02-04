@@ -1,0 +1,12 @@
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\hw_ 8.exe.config
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\hw_ 8.exe
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\hw_ 8.pdb
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\EntityFramework.dll
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\EntityFramework.SqlServer.dll
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\EntityFramework.xml
+E:\c# 3semestr\ado.NET\hw_ 8\bin\Debug\EntityFramework.SqlServer.xml
+E:\c# 3semestr\ado.NET\hw_ 8\obj\Debug\hw_ 8.csprojAssemblyReference.cache
+E:\c# 3semestr\ado.NET\hw_ 8\obj\Debug\hw_ 8.csproj.CoreCompileInputs.cache
+E:\c# 3semestr\ado.NET\hw_ 8\obj\Debug\hw_ 8.csproj.CopyComplete
+E:\c# 3semestr\ado.NET\hw_ 8\obj\Debug\hw_ 8.exe
+E:\c# 3semestr\ado.NET\hw_ 8\obj\Debug\hw_ 8.pdb
