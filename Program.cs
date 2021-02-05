@@ -40,11 +40,38 @@ namespace hw__8
             return _context.Books.Where(b => b.Name.Split(' ').Length < 10);
         }
 
-        //Task 6
-        //public IEnumerable<Book> GetBooksByMaxPages()
+        //Task 6  не можу зрозуміти як робити(((((
+        //public void GetBooksByMaxPages()
         //{
-        //    return _context.Books.OrderByDescending(b => b.Pages).First();
+        //    var book = _context.Books.OrderByDescending(b => b.Pages
+        //    && b.Language.Id != 1).First();
         //}
+        //Task 7
+        public void GetAuthorByBooks()
+        {
+            var author = _context.Books.OrderBy(b => b.AuthorId).First();
+            Console.WriteLine($"Name {author.Author.Name} Surname {author.Author.Surname}");
+        }
+
+        //Task 8
+        public void SortAuthors()
+        {
+            var author = _context.Authors.Where(a => a.Book.Language.Name != "English (American)").ToArray();
+            Array.Sort(author);
+            foreach (var item in author)
+            {
+                Console.WriteLine($"Name : {item.Name} Surname : {item.Surname}");
+            }
+        }
+
+        //Task 9
+
+        public void GetCountry()
+        {
+            var country = _context.Books.OrderByDescending(s => s.Language.Country.Name).First();
+            Console.WriteLine();
+        }
+
     }
     class Program
     {
@@ -72,6 +99,8 @@ namespace hw__8
             {
                 Console.WriteLine($"Book [{item.Name}] {item.Pages} ");
             }
+
+            libraryServise.GetAuthorByBooks();
 
 
         }
